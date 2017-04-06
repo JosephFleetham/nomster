@@ -35,8 +35,15 @@ body {
 }
 
 .pagnation {
-  width: 200px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
+  text-align: center;
+  a, em {
+    margin: 0 10px;
+  }
+  .pagination {
+    display: inline-block;
+  }
 }
